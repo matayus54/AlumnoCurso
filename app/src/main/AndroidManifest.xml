@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ventas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ventas">
+        <activity
+            android:name=".RegistrarAlumnos"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrarCursos"
+            android:exported="false" />
+        <activity
+            android:name=".Entidades.Curso"
+            android:exported="false" />
+        <activity
+            android:name=".Entidades.Alumno"
+            android:exported="false" />
+        <activity
+            android:name=".DetalleMascotas"
+            android:exported="false" />
+        <activity
+            android:name=".ConsultarListaMascotas"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroMascotas"
+            android:exported="false" />
+        <activity
+            android:name=".Entidades.Mascota"
+            android:exported="false" />
+        <activity
+            android:name=".Entidades.Producto"
+            android:exported="false" />
+        <activity
+            android:name=".DetalleUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".ConsultarUsuariosListView"
+            android:exported="false" />
+        <activity
+            android:name=".ConsultaUsuariosCombo"
+            android:exported="false" />
+        <activity
+            android:name=".ConsultarUsuarios"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroUsuarios"
+            android:exported="false" />
+        <activity
+            android:name=".Conexiones.ConexionSqliteOpenHelper"
+            android:exported="false" />
+        <activity
+            android:name=".Utilidades.Utilidades"
+            android:exported="false" />
+        <activity
+            android:name=".Conexiones.SqliteOpenHelper"
+            android:exported="false" />
+        <activity
+            android:name=".Entidades.Usuario"
+            android:exported="false" />
+        <activity
+            android:name=".Entidades"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
